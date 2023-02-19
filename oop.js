@@ -30,9 +30,15 @@ console.log(poseidon.calcAge())
 
 const troy = new person("Gospel", 2000);
 
+let arr = [3, 5, 7, 3, 2, 8, 9, 2, 1, 0, 3]
 
 
+Array.prototype.addMore = function(){
+    return this.map((add) => add + 1 )
+}
 
+
+console.log(arr.addMore())
 
 
 
