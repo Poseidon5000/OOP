@@ -32,13 +32,22 @@ const troy = new person("Gospel", 2000);
 
 let arr = [3, 5, 7, 3, 2, 8, 9, 2, 1, 0, 3]
 
+console.log(Array);
+
 
 Array.prototype.addMore = function(){
     return this.map((add) => add + 1 )
 }
 
 
-console.log(arr.addMore())
+console.log(arr.addMore());
+
+
+const arr1 = [5, 7, 8, 3, 2];
+
+console.log(arr1.addMore())
+
+
 
 
 
